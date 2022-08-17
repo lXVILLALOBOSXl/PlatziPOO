@@ -2,4 +2,7 @@
     "python.analysis.extraPaths": [
         "./Python"
     ],
+    "files.associations": {
+        "iosfwd": "cpp"
+    },
 }
