@@ -23,4 +23,8 @@ class Account
         }
         
         ~Account();
+
+        string toString(){
+            return "Account [id=" + to_string(id) + ", name=" + name + ", document=" + document + ", email=" + email + ", password=" + password + "]";
+        }
 };

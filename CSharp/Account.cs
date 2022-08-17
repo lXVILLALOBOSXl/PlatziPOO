@@ -18,5 +18,10 @@ namespace CSharp
             this.email = email;
             this.password = password;
         }
+
+        public override string ToString()
+        {
+            return $"ID: {id}, Name: {name}, Document: {document}, Email: {email}, Password: {password}";
+        }
     }
 }

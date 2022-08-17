@@ -5,4 +5,8 @@ class Car{
         this.driver = driver;
         this.numberOfPassengers = numberOfPassengers;
     }
+
+    toString = function(){
+        console.log(this.id + " - " + this.license + " - " + this.driver + " - " + this.numberOfPassengers);
+    }
 }

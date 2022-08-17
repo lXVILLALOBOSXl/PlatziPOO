@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php
-        $account = new Account(1, "João", "joaohjal", "joao@mail.com", "123456");
-        echo "Hello World!";
+        require_once("Car.php");
+        require_once("Account.php");
+        $car = new Car(1, "ABC-1234", new Account(1, "João", "joaohjal", "joao@mail.com", "123456"), 4);
+        echo $car->toString();
     ?>
 </body>
 </html>

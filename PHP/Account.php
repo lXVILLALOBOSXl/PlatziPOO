@@ -13,5 +13,10 @@ class Account{
         $this->email = $email;
         $this->password = $password;
     }
+
+    //toString()
+    public function toString(){
+        return "Account[id=" . $this->id . ", name=" . $this->name . ", document=" . $this->document . ", email=" . $this->email . ", password=" . $this->password . "]";
+    }
 }
 ?>

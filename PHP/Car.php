@@ -11,5 +11,10 @@ class Car{
         $this->driver = $driver;
         $this->numberOfPassengers = $numberOfPassengers;
     }
+
+    //toString()
+    public function toString(){
+        return "Car[id=" . $this->id . ", license=" . $this->license . ", driver=" . $this->driver->toString() . ", numberOfPassengers=" . $this->numberOfPassengers . "]";
+    }
 }
 ?>

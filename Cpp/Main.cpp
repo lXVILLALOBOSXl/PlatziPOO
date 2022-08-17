@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(){
-    Account *account = new Account(1, "João", "joaohjal", "joao@mail.com", "123456");
-    cout<<"Hello World!";
+    Car *car = new Car(1, "ABC-1234", 4, new Account(1, "João", "joaohjal", "joao@mail.com", "123456"));
+    cout<<car->toString()<<endl;
     return 0;
 }
